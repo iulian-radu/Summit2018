@@ -112,7 +112,7 @@ To view and analyze the model results, open the **[PREGENERATED] Mini Cooper loo
 - This graph gives you a sense of how many look-alike users were found at different accuracy (similarity) levels. 
 - The more users you want to reach, the less similar they will be to your baseline.
 - The list of **Influential Traits** gives you a sense of the model learnings. These are traits that the model discovered to be highly correlated to the baseline. Our algorithm (TraitWeight) gives importance to traits that are very common to the baseline audience, but at the same time are very specific to the baseline (rare in the overall pool of users outside the baseline).
-- Once the model computes the list of influential traits and assigns weights to them, it computes a score for each user outside the baseline by adding the weights of the traits that this user has.
+- Once the model computes the list of influential traits and assigns weights to them, it calculates a score for each user outside the baseline by adding the weights of the traits that this user has.
 - In this exercise, we showcased how a publisher can model against their 1st party data. Publishers, however, often use 2nd and and 3rd party data in look-alike modeling as well:
   - As input to the model in order to further "refine" the baseline (e.g. construct a baseline = 1st party trait + 3rd party demographics data)
   - As Data Sources to model against in order to gain insights about the baseline audience and describe it before selling.
