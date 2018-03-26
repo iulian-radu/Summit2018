@@ -382,6 +382,8 @@ _Hint: Create mutually-exclusive buckets at segment level._
 
 Here is a bonus script that you could use in the future should you decide to automate the creation of traits, segments, and models for your account via [Audience Manager's APIs](https://marketing.adobe.com/resources/help/en_US/aam/c_rest_api_main.html).
 
+[Provisioning script for the summit test site](https://github.com/iulian-radu/Summit2018/tree/master/L757/script/)
+
 ---
 
 
