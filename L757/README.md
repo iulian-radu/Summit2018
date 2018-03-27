@@ -46,7 +46,7 @@ Adobe Audience Manager (AAM) is Adobe’s Data Management Platform, which allows
 
 AAM, however, is not just a data bank. It also provides you with free out-of-the-box features that allow you to build look-alike (algorithmic) models to expand audiences. In this lab, we will focus on three of these features:
   * **Look-alike Modeling** - a feature used for building and running look-alike models.
-  * **Audience Marketplace** - a feature where you can buy 2nd and 3rd party data or sell your own. 
+  * **Audience Marketplace** - a feature where you can buy 3rd party data or sell your own. 
   * **Audience Lab** - an environment, where you can run online tests on audiences (even look-alike audiences) and measure campaign effectiveness.
 
 ---
@@ -70,7 +70,7 @@ _Note: The data that you see in your account is simulated. Your trait, segment, 
 
 <div align="center"><img src="files/auto_central_logo.jpg" width="100px", height="auto", align="center" ></div>
 
-You are the Ad Sales Manager at **AutoCentral** - a popular automotive review and shopping web site. You have a **Mini Cooper enthusiasts** segment audience of 5K users which has sold out and you want to extend this audience with other Mini Cooper look-alike users from your 1st party data.
+You are the Ad Sales Manager at **AutoCentral** - a popular automotive review and shopping web site. You have a **Mini Cooper enthusiasts** segment audience of 16K users which has sold out and you want to extend this audience with other Mini Cooper look-alike users from your 1st party data.
 
 ---
 
@@ -371,7 +371,6 @@ _Hint: Create mutually-exclusive buckets at segment level._
 <h2>Tips & Gotchas</h2>
 
 * For best results, use highly specific baseline trait as a start. If you start modeling from a baseline trait, which is very generic, you will derive "generic" results.
-* Build granular trait taxonomy.
 * Select short lookback period - 30 days.
 * As a best practice, create a new data source to store your algo traits and segments in. Do not use algo traits as baselines and do not include them with your data sources for modeling.
 * Exclude generic traits such as site visitor traits into a separate data source.
